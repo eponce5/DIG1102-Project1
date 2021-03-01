@@ -31,9 +31,9 @@ var rockPaperScissors = function(rounds) {
 
   function userChoice(){
       var userInput = prompt("Please enter your choice of either rock, paper or scissors(enter r,p, or s) . To exit, hit the 'Cancel' button.");
-      //If userInput is null, return null:
+   
       if (userInput == null) return null;
-      //Otherwise, return the lowercase version of userInput:
+      
       return userInput.toLowerCase();
   }
   
